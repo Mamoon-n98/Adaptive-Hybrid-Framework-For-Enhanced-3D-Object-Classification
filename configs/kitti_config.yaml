@@ -1,0 +1,15 @@
+# Process starts: KITTI config.
+dataset:
+  root: KITTI  # Assume path.
+  num_points: 16384  # More points for LiDAR.
+  batch_size: 16  # Smaller batch.
+model:
+  voxel_size_range: [0.05, 0.2]  # Larger voxels.
+  point_out_dim: 1024
+  voxel_out_dim: 256
+  fusion_out_dim: 512
+  num_classes: 10  # Assume 10 classes for demo.
+training:
+  epochs: 100
+  lr: 0.0005
+# Process ends.

@@ -1,0 +1,17 @@
+# Process starts: ModelNet40 configuration.
+dataset = {
+    'root': '/root/autodl-tmp/Adaptive-Hybrid-Framework-For-Enhanced-3D-Object-Classification/modelnet40/ModelNet40',
+    'num_points': 2048,
+    'batch_size': 32
+}
+
+model = {
+    'num_classes': 40,
+    'num_points': 2048
+}
+
+training = {
+    'epochs': 200,
+    'lr': 0.001
+}
+# Process ends: Configuration complete.
